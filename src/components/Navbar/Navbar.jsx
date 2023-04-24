@@ -65,7 +65,7 @@ export function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="sm:py-2 sm:text-3xl sm:my-1 py-6 text-3xl hover:text-[#FFDE59]">
           <Link
             onClick={handleClick}
             to="home"
@@ -76,7 +76,7 @@ export function Navbar() {
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="sm:py-2 sm:text-3xl sm:my-1 py-6 text-3xl hover:text-[#FFDE59]">
           <Link
             onClick={handleClick}
             to="about"
@@ -87,7 +87,7 @@ export function Navbar() {
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="sm:py-2 sm:text-3xl sm:my-1 py-6 text-3xl hover:text-[#FFDE59]">
           <Link
             onClick={handleClick}
             to="skills"
@@ -98,7 +98,7 @@ export function Navbar() {
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="sm:py-2 sm:text-3xl sm:my-1 py-6 text-3xl hover:text-[#FFDE59]">
           <Link
             onClick={handleClick}
             to="work"
@@ -109,7 +109,7 @@ export function Navbar() {
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="sm:py-2 sm:text-3xl sm:my-1 py-6 text-3xl hover:text-[#FFDE59]">
           <Link
             onClick={handleClick}
             to="contact"

@@ -18,7 +18,7 @@ export function Work() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${work_01})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-2 border-[#FFDE59]"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -26,12 +26,18 @@ export function Work() {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://portfolio-lucas-sage.vercel.app/">
+                <a
+                  className="text-center py-4  m-2"
+                  href="https://portfolio-lucas-sage.vercel.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/KoexoKoe/portfolio-lucas">
+                <a
+                  className="text-center py-4 m-2"
+                  href="https://github.com/KoexoKoe/portfolio-lucas"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -41,7 +47,7 @@ export function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${imgnotfound})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-2 border-[#FFDE59]"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -49,12 +55,12 @@ export function Work() {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a className="text-center py-4  m-2" href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a className="text-center py-4  m-2" href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
