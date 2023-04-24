@@ -11,12 +11,12 @@ export function Contact() {
         action="https://getform.io/f/638705b1-3b12-44cd-b3aa-55463d06cde3"
         className="flex flex-col max-w-[600px] w-full"
       >
-        <div className="pb-8">
+        <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-[#FFDE59] text-gray-300">
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            //Submit the form below or shoot me an email - myemail@gmail.com
+            Submit the form below or shoot me an email - myemail@gmail.com
           </p>
         </div>
         <input
