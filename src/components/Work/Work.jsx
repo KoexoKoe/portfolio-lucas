@@ -47,7 +47,7 @@ export function Work() {
           </div>
           <div
             style={{ backgroundImage: `url(${imgnotfound})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-2 border-[#FFDE59]"
+            className="hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div border-2 border-[#FFDE59]"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
